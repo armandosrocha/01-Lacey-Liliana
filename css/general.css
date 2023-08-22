@@ -1,0 +1,105 @@
+/* 
+01 TIPOGRAFY SYSTEM
+  FONT SIZE SYSTEM (rem)
+    1.0rem
+    1.2rem
+    1.4rem
+    1.6rem 
+    1.8rem 
+    2.0rem 
+    2.4rem 
+    3.0rem 
+    3.6rem 
+    4.4rem 
+    5.2rem 
+    6.2rem 
+    7.4rem 
+    8.6rem 
+    9.8rem
+
+  Font weight:
+    Default: 400
+    Medium: 500
+    Semi-bold: 600
+    Bold: 700
+
+  Line height:
+    Small: 1.05
+    Medium: 1.2
+    Paragraph default: 1.6
+
+  Letter Spacing
+    -0.5px
+    -0.75px
+    -1px
+
+
+02 COLORS 
+
+  PRIMARY:  #ed3376 
+
+  TINTS: #ef4784 #f15c91 #f15c91 #f2709f #f485ad #f699bb #f8adc8 #fac2d6 #fbd6e4 #fdebf1 
+
+  SHADES: #d52e6a #be295e #a62453 #8e1f47 #771a3b #5f142f #470f23 #2f0a18 #18050c #000000
+
+  ACCENTS:
+
+  GREYS:
+    #111
+    #222
+    #333
+    #444
+    #555
+    #666
+    #777
+    #888
+    #999
+    #aaa
+    #bbb
+    #ccc
+    #ddd
+    #eee
+    #fff
+
+03 BOX-SHADOWS
+
+04 BORDER-RADIUS
+  Default: 9px
+
+05 WHITESPACE
+  SPACING SYSTEM (rem)
+    0.2rem  
+    0.4rem 
+    0.8rem 
+    1.2rem 
+    1.6rem 
+    2.4rem
+    3.2rem 
+    4.8rem 
+    6.4rem 
+    8.0rem 
+    9.6rem 
+    12.8rem
+*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+strong {
+  font-weight: 500;
+}
+
