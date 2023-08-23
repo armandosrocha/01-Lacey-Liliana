@@ -1,0 +1,39 @@
+/* ********************************************* */
+/* HERO SECTION */
+/* ********************************************* */
+
+.section-hero {
+  background-color: #fdebf1;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+
+.hero {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-paragraph {
+  font-size: 2.0rem;
+  line-height: 1.05;
+}
