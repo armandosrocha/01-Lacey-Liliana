@@ -37,3 +37,38 @@
   font-size: 2.0rem;
   line-height: 1.05;
 }
+
+/* ********************************************* */
+/* HOW IT WORKS SECTION */
+/* ********************************************* */
+.how-it-works {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.z-pattern-box {
+  gap: 6.4rem;  
+  margin-bottom: 9.6rem;
+}
+
+.z-img {
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+}
+
+.z-text-box {
+  display: flex;
+  flex-direction: column; 
+  gap: 3rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.z-text {
+  font-size: 2rem;
+}
+
+.z-right {
+  grid-column: 2; 
+  grid-row: 1;
+}
