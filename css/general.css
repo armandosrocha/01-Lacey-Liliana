@@ -96,10 +96,67 @@ html {
 body {
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #333;
+  font-family: 'Rubik', sans-serif;
 }
 
 strong {
   font-weight: 500;
 }
 
+
+/* ***************************************** */
+/* CONTAINER */
+/* ***************************************** */
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+/* ***************************************** */
+/* BUTTONS */
+/* ***************************************** */
+
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  /* put the transition on the original "state" */
+  transition: all .3s ease-in;
+}
+
+.btn--full:link, .btn--full:visited {
+  background-color: #ed3376;
+  color: #fff;
+}
+
+.btn--full:hover, .btn--full:active {
+  background-color: #a62453 ;
+}
+
+.btn--outline:link, .btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover, .btn--outline:active {
+  background-color: #fdf2e9;
+  /* add a border that doesn't get added to the outside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/* ***************************************** */
+/* HEADINGS */
+/* ***************************************** */
+
+.heading-primary {
+  font-size: 4.4rem;
+  letter-spacing: -0.5px;
+}
