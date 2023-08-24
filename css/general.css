@@ -38,9 +38,29 @@
 
   PRIMARY:  #ed3376 
 
-  TINTS: #ef4784 #f15c91 #f15c91 #f2709f #f485ad #f699bb #f8adc8 #fac2d6 #fbd6e4 #fdebf1 
+  TINTS:
+    #ef4784
+    #f15c91
+    #f15c91
+    #f2709f
+    #f485ad
+    #f699bb
+    #f8adc8
+    #fac2d6
+    #fbd6e4
+    #fdebf1 
 
-  SHADES: #d52e6a #be295e #a62453 #8e1f47 #771a3b #5f142f #470f23 #2f0a18 #18050c #000000
+  SHADES:
+    #d52e6a
+    #be295e
+    #a62453
+    #8e1f47
+    #771a3b
+    #5f142f
+    #470f23
+    #2f0a18
+    #18050c
+    #000000
 
   ACCENTS:
 
@@ -104,6 +124,13 @@ strong {
   font-weight: 500;
 }
 
+/* ***************************************** */
+/* TEXT POSITIONING */
+/* ***************************************** */
+.center-text {
+  text-align: center;
+}
+
 
 /* ***************************************** */
 /* CONTAINER */
@@ -159,4 +186,30 @@ strong {
 .heading-primary {
   font-size: 4.4rem;
   letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+}
+
+/* ***************************************** */
+/* GRIDS */
+/* ***************************************** */
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ***************************************** */
+/* MARGINS */
+/* ***************************************** */
+
+.margin-bottom-big {
+  margin-bottom: 9.6rem;
 }
