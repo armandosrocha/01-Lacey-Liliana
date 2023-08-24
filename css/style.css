@@ -50,6 +50,10 @@
   margin-bottom: 9.6rem;
 }
 
+div.z-pattern-box:nth-child(3) {
+  margin-bottom: 0;
+}
+
 .z-img {
   align-self: center;
   justify-self: center;
@@ -71,4 +75,48 @@
 .z-right {
   grid-column: 2; 
   grid-row: 1;
+}
+
+/* ********************************************* */
+/* TESTIMONIALS SECTION */
+/* ********************************************* */
+
+.testimonial-grid {
+  gap: 9.6rem;
+}
+
+
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.star-rate {
+  color: #ed3376;
+  width: 3rem;
+  height: 3rem;
+}
+
+.testimonial-description {
+  font-size: 1.8rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+    font-weight: 500;
+  color: #2f0a18;
+}
+
+.job-title {
+
+  color: #470f23;
 }
