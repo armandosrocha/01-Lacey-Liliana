@@ -213,3 +213,11 @@ strong {
 .margin-bottom-big {
   margin-bottom: 9.6rem;
 }
+
+/* ***************************************** */
+/* DISABLE SOME BEHAVIOURS BY DEFAULT*/ 
+/* ***************************************** */
+
+textarea {
+  resize: none;
+}
