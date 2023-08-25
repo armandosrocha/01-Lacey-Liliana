@@ -129,7 +129,7 @@ div.z-pattern-box:nth-child(3) {
 /* ********************************************* */
 
 .highlights-section {
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 4.8rem 0 4.8rem 0;
 }
 
 .highlights-cards {
@@ -189,4 +189,82 @@ div.z-pattern-box:nth-child(3) {
   color: #d52e6a;
   border: 4px solid #d52e6a;
   background-color: #fff;
+}
+
+/* ********************************************* */
+/* CALL TO ACTION SECTION */
+/* ********************************************* */
+.cta-section {
+  padding: 3.2rem 0 9.6rem 0;
+}
+
+.cta-section .heading-secondary {
+  margin-bottom: 4.8rem;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  /* gap: 9.6rem; */
+  background-color: #f2709f;
+  border-radius: 9px;
+  /* make image round */
+  overflow: hidden;
+  color: #5f142f;
+}
+
+.cta-grid *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(250,194,214,1.000);
+}
+
+.cta-form div {
+  margin: 3rem;
+}
+
+.cta-form label {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  padding-left: 0.4rem;
+  font-weight: 500;
+}
+
+.cta-form input,
+.cta-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #fef7fa;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+}
+
+.cta-form input::placeholder
+.cta-form textarea::placeholder {
+  color: #aaa;
+}
+.cta-button button {
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5f142f;
+  transition: all 0.3s ease;
+}
+
+.cta-button button:hover,
+.cta-button button:active {
+  background-color: #fff;
+  color: #333;
+}
+
+.cta-img {
+  background: url('../img/woman-posing.jpg');
+  background-size: cover;
+  background-position: center;
 }
