@@ -268,3 +268,79 @@ div.z-pattern-box:nth-child(3) {
   background-size: cover;
   background-position: center;
 }
+
+/* ********************************************* */
+/* FOOTER */
+/* ********************************************* */
+
+.footer {
+  padding: 6.4rem 0;
+  background-color: #fdebf1;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 32.5fr 32.5fr 17.5fr 17.5fr;
+  gap: 3rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.address-col, .nav-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-social-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-social-link {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-social-link:hover {
+  color: #ed3376;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.copyright {
+  font-size: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #ed3376;
+  font-weight: 500;
+}
+
+.address {
+  font-size: 1.6rem;
+}
+
+
