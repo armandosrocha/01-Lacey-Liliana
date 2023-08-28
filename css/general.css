@@ -221,3 +221,19 @@ strong {
 textarea {
   resize: none;
 }
+
+/* ***************************************** */
+/* LOGO FOR THE HEADER AND FOOTER*/ 
+/* ***************************************** */
+
+.logo {
+  font-family: 'Zeyada', sans-serif;
+  font-size: 4.4rem;
+  color: #ed3376;
+  text-decoration: none;
+  display: block;
+}
+
+.logo span{
+  color: #470f23;
+}
