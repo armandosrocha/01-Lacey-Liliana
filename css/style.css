@@ -32,6 +32,37 @@
 .nav-link:active {
   color: #ed3376;
 }
+
+/* MOBILE NAVIGATION */
+.nav-mobile-open .nav-mobile {
+  display: none;
+}
+
+.nav-mobile ul {
+  list-style: none;
+}
+
+.nav-mobile ul li {
+  font-size: 4rem;
+}
+
+.nav-mobile-button:link,
+.nav-mobile-button:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in;
+}
+
+.nav-mobile-button:hover,
+.nav-mobile-button:active {
+  color: #ed3376;
+}
+
+/* hide close button */
+.nav-close-button {
+  display: none;
+}
+
 /* ********************************************* */
 /* HERO SECTION */
 /* ********************************************* */

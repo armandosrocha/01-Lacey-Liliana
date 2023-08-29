@@ -5,8 +5,11 @@
   <title>Lacey Liliana</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="css/general.css">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/queries.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,15 +19,22 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header nav-mobile-open">
     <a href="#" class="logo">Lacey <span>Liliana</span></a>
-    <nav>
+    <nav class="nav-desktop">
       <ul class="nav-links">
         <li><a href="#how-it-works" class="nav-link">How it works</a></li>
         <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
         <li><a href="#highlights" class="nav-link">Highlights</a></li>
         <li><a href="#cta" class="nav-link">Find out more</a></li>
       </ul>
+    </nav>
+    <nav class="nav-mobile">
+      <ul>
+        <li><a href="#" class="nav-mobile-button nav-menu-button"><ion-icon name="menu-outline"></ion-icon></a></li>
+        <li><a href="#" class="nav-mobile-button nav-close-button"><ion-icon name="close-outline"></ion-icon></a></li>
+      </ul>
+
     </nav>
   </header>
 
