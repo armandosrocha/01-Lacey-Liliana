@@ -1,0 +1,72 @@
+/* ***************************************** */
+/* QUERIES FOR 1104 px */
+/* ***************************************** */
+
+@media (max-width: 69em) {
+  
+  html {
+    font-size: 56.25%;
+  }
+
+  .margin-bottom-big {
+    margin-bottom: 8.0rem;
+  }
+  
+  .testimonials-section {
+    padding: 6.4rem 0 9.6rem 0;
+  }
+}
+
+/* ***************************************** */
+/* QUERIES FOR 912px */
+/* ***************************************** */
+
+@media (max-width: 57em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  /* this is not a flex item anymore */
+  .main-nav {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+    transform: translateX(100%);
+    /* hide the navigation */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  /* nav-open will be toggled through js */
+  .nav-open .main-nav{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  /* show close button */
+  .nav-open .nav-close-button {
+    display: block;
+  }
+
+  /* hide menu icon */
+  .nav-open .nav-menu-button {
+    display: none;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.8rem;
+    font-size: 3rem;
+  }
+} 
