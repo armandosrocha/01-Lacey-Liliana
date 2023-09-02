@@ -111,5 +111,62 @@
 /* QUERIES FOR 704px */
 /* ***************************************** */
 @media(max-width: 44em) {
+  .hero-img {
+    width: 70%;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .z-text {
+    font-size: 1.8rem;
+  }
+}
+
+/* ***************************************** */
+/* QUERIES FOR 608px */
+/* ***************************************** */
+@media(max-width: 38em){
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .z-right {
+    grid-column: 1; 
+    grid-row: 1;
+  }
+
+  .z-img {
+    width: 70%;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    margin: 0 3rem;
+    text-align: center;
+  }
+
+  .highlights-card {
+    margin: 0 3rem;
+  }
+
+  .testimonial-card:nth-child(3) {
+    margin: 0 3rem;
+  }
+
+  .highlights-card:nth-child(3) {
+    margin: 0 3rem;
+  }
+
+ 
 
 }
