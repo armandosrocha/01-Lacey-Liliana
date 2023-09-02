@@ -8,6 +8,7 @@
   align-items: center;
   padding: 1.8rem 3.2rem;
   background-color: #fdebf1;
+  position: relative;
 }
 
 /* make logo in header a little bit bigger */
