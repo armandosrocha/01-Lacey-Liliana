@@ -179,6 +179,10 @@
     height: 32rem;
     grid-row: 1;
   }
+
+  .header .logo, .logo {
+    font-size: 3.6rem;
+  }
 }
 
 
@@ -190,4 +194,5 @@
   .btn, .btn:link, .btn:visited {
     font-size: 1.6rem;
   }
+
 }
