@@ -132,6 +132,10 @@
 /* QUERIES FOR 608px */
 /* ***************************************** */
 @media(max-width: 38em){
+  .btn, .btn:link, .btn:visited {
+    font-size: 1.8rem;
+  }
+
   .grid--2-cols {
     grid-template-columns: 1fr;
     text-align: center;
@@ -166,7 +170,24 @@
   .highlights-card:nth-child(3) {
     margin: 0 3rem;
   }
+  
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
 
- 
+  .cta-img {
+    height: 32rem;
+    grid-row: 1;
+  }
+}
 
+
+/* ***************************************** */
+/* QUERIES FOR 416px */
+/* ***************************************** */
+
+@media(max-width: 26em){
+  .btn, .btn:link, .btn:visited {
+    font-size: 1.6rem;
+  }
 }
