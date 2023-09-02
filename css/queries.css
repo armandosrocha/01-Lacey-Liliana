@@ -155,20 +155,20 @@
   }
 
   .testimonial-card {
-    margin: 0 3rem;
+    margin: 0 1rem;
     text-align: center;
   }
 
   .highlights-card {
-    margin: 0 3rem;
+    margin: 0 1rem;
   }
 
   .testimonial-card:nth-child(3) {
-    margin: 0 3rem;
+    margin: 0 1rem;
   }
 
   .highlights-card:nth-child(3) {
-    margin: 0 3rem;
+    margin: 0 1rem;
   }
   
   .cta-grid {
