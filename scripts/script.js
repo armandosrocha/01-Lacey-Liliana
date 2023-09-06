@@ -14,14 +14,16 @@ const observer = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
 
-    if (ent.isIntersecting === false)
-      document.querySelector('.header').classList.add('sticky-nav');
+    if (!ent.isIntersecting) {
+      document.body.classList.add('sticky-nav');
+    }
     else
-      document.querySelector('.header').classList.remove('sticky-nav');
+      document.body.classList.remove('sticky-nav');
   },
   {
     root: null,
-    threshold: 0
+    threshold: 0,
+    rootMargin: '-85px'
   });
 
 observer.observe(heroSection);
